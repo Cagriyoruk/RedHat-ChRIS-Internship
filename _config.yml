@@ -1,4 +1,1 @@
 theme: jekyll-theme-cayman
-webrick:
-  headers:
-    My-Header: RedHat ChRIS Status Blog
