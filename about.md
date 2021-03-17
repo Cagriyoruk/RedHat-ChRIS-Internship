@@ -4,3 +4,11 @@ Hello everyone. My name is Cagri Yoruk. I'm currently a software engineer intern
 
 ![20200417_130701](https://user-images.githubusercontent.com/55101879/111505549-1e7a4e80-871f-11eb-9612-1a758a9bc2f5.jpg)
 
+[GitHub](https://github.com/Cagriyoruk)
+
+[LinkedIn](https://www.linkedin.com/in/cagriyoruk/)
+
+[Instagram](https://www.instagram.com/cagriiyoruk/)
+
+[Twitch](https://www.twitch.tv/zelanochi/about)
+
