@@ -10,5 +10,3 @@ Hello everyone. My name is Cagri Yoruk. I'm currently a software engineer intern
 
 [Instagram](https://www.instagram.com/cagriiyoruk/)
 
-[Twitch](https://www.twitch.tv/zelanochi/about)
-
