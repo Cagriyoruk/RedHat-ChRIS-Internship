@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Cagri
+title: "My First Week at Red Hat"
 ---
 
 I'm starting this blog halfway through my internship. So it's been a while and I may not be able to depict every experience I had or work I did. However, I will try my best :)
