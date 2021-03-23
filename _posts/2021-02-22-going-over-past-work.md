@@ -4,4 +4,4 @@ author: Cagri
 title: "Going Over Past Work"
 ---
 
-As you might already know, I used to work on ChRIS project as a student developer.
+As you might already learned my introduction, you possibly know that I was involved in ChRIS project for developing plugins as a student developer. I was assigned to build a plugin that classifies brain MRI's using convolutional neural networks and spits out a text report about the segmentation about the brain with 4 other people. The project was called containerizing neural networks for medical compute and it was for a semester project for EC528 Cloud Computing class. If you want to learn more about the project, here is the GitHub repo for it -> [Containerizing Neural Nets](https://github.com/BU-CLOUD-F20/Containerizing_Neural_Nets). There is extensive explanation about the project and how to replicate and use it.
