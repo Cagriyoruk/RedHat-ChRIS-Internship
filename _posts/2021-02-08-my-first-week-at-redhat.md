@@ -12,4 +12,7 @@ I receieved my work laptop on the second day of my internship. I was given a Len
 
 My job also includes working with Openshift platform directly. We're deploying and testing the ChRIS platform on Openshift with the Mass Open Cloud as the provider. So I installed the Openshift CLI tool in order to work with it from my terminal. If you want to learn more about the Openshift CLI tool you can find it here -> [Getting Started with the OpenShift CLI Tool](https://docs.openshift.com/container-platform/4.6/cli_reference/openshift_cli/getting-started-cli.html)
 
-I wrapped first week after finishing orientation videos and installing essential libraries to use ChRIS on the Fedora distribution. 
+I wrapped first week after finishing orientation videos and installing essential libraries to use ChRIS on the Fedora distribution. I want to finish this post with sharing my work station :)
+
+![File_001](https://user-images.githubusercontent.com/55101879/112176279-59243100-8bce-11eb-9974-4a4c91963e81.jpeg)
+
