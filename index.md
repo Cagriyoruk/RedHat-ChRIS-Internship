@@ -4,6 +4,5 @@ Hello everyone. I'm Cagri, a graduate student at Boston university studying Elec
 
 [Learn more About Me](./about)
 
-![Untitled design](https://user-images.githubusercontent.com/55101879/112532541-50269180-8d7f-11eb-8ba7-710980f53e14.png)
 
 
