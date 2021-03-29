@@ -90,4 +90,4 @@ http://pman-local-chris.apps-crc.testing to pod port 5010-tcp (svc/pman)
 4 infos identified, use 'oc status --suggest' to see details.
 ```
 
-I want to wrap up this blog post with saying that I finished the first draft of the MOC integration. If you want to take a look or give any feedback you can find it here -> If working with ChRIS is something you want to do, definitely check out the document I wrote here -> [ChRIS MOC Integration](https://github.com/Cagriyoruk/CHRIS_docs/blob/master/usecases/MOC_integration/moc_integration.adoc). As always, Thanks for reading 😃
+I want to wrap up this blog post with saying that I finished the first draft of the MOC integration. If you want to take a look or give any feedback you can find it here -> [ChRIS MOC Integration](https://github.com/Cagriyoruk/CHRIS_docs/blob/master/usecases/MOC_integration/moc_integration.adoc). As always, Thanks for reading 😃
