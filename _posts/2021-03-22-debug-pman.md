@@ -82,5 +82,29 @@ This clearly indicates that one of the parameters were supposed to be integer ho
                                 ....
 ```
 
+The most important part of this template is the `parallelism` , `completions` that are in the `spec` section and the value of `NUMBER_OF_WORKERS` in the `containers env`. As it seems, Even though the MOC environment can differentiate and Parse this JSON template without any problems, the local CodeReady Containers Openshift environment couldn't parse this JSON as it is and it threw and error. As you can see from my whiteboard while the 'parallelism' and 'completions' expects an integer, the 'NUMBER_OF_WORKERS' in the `containers env` expects a string. I found out about this by hardcoding some values and creating different images.
 
 ![File_000](https://user-images.githubusercontent.com/55101879/112177775-99d07a00-8bcf-11eb-879b-1b55daa46a29.jpeg)
+
+I modified our `openshiftmgr.py` by changing the values that were read to integers. Here is a little snippet:
+
+```
+    def schedule(self, image, command, name, number_of_workers, 
+                 cpu_limit, memory_limit, gpu_limit, incoming_dir, outgoing_dir):
+        """
+        Schedule a new job and returns the job object.
+        """
+        d_job = {
+            "apiVersion": "batch/v1",
+            "kind": "Job",
+            "metadata": {
+                "name": name
+            },
+            "spec": {
+                "ttlSecondsAfterFinished": 20,
+                "parallelism": int(number_of_workers),
+                "completions": int(number_of_workers),
+                ......
+```
+
+After this change I've tested this image both on MOC and on my local openshift and it worked perfectly. On the other hand, my mentor Mo Duffy wanted me to create a status blog about my work and suggested GitHub Pages and Jekyll. Hence I started watching some videos about Jekyll and started working on my blog which is this blog 😄. I'm wrapping up this blog post by saying that I think  %70 of my work was debugging in these last two weeks. As always, Thansk for reading 😁
