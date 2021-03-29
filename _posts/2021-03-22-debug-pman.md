@@ -107,4 +107,4 @@ I modified our `openshiftmgr.py` by changing the values that were read to intege
                 ......
 ```
 
-After this change I've tested this image both on MOC and on my local openshift and it worked perfectly. On the other hand, my mentor Mo Duffy wanted me to create a status blog about my work and suggested GitHub Pages and Jekyll. Hence I started watching some videos about Jekyll and started working on my blog which is this blog 😄. I'm wrapping up this blog post by saying that I think  %70 of my work was debugging in these last two weeks. As always, Thansk for reading 😁
+After this change I've tested this image both on MOC and on my local openshift and it worked perfectly. On the other hand, my mentor Mo Duffy wanted me to create a status blog about my work and suggested GitHub Pages and Jekyll. Hence I started watching some videos about Jekyll and started working on my blog which is this blog 😄. I'm wrapping up this blog post by saying that I think 70% of my work was debugging in these last two weeks. As always, Thansk for reading 😁
