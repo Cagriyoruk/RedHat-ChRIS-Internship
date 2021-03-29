@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Cagri
-title: "Local Openshift and debugging Pman"
+title: "MOC Integration and Local Openshift"
 ---
 
 After MOC routes being down for a week, I was able to start a documentation to integrate MOC with ChRIS. Personally I like to call these files living documents. Because from every experience and different problems we encounter, we update the documentation. It's a good opportunity to reflect back and see the changes that can be done. While I was working with the document, one of my mentors suggested that I should build a local openshift cluster so that whenever the MOC is down, I can continue to deploy and test services/plugins locally.
@@ -88,11 +88,6 @@ http://pman-local-chris.apps-crc.testing to pod port 5010-tcp (svc/pman)
     deployment #1 deployed 1 hour ago - 1 pod
 
 4 infos identified, use 'oc status --suggest' to see details.
-
-
 ```
 
-Pman which stands for process manager is one of our essential servies to run ChRIS.
-
-![File_000](https://user-images.githubusercontent.com/55101879/112177775-99d07a00-8bcf-11eb-879b-1b55daa46a29.jpeg)
-
+I want to wrap up this blog post with saying that I finished the first draft of the MOC integration. If you want to take a look or give any feedback you can find it here -> If working with ChRIS is something you want to do, definitely check out the document I wrote here -> [ChRIS MOC Integration](https://github.com/Cagriyoruk/CHRIS_docs/blob/master/usecases/MOC_integration/moc_integration.adoc). As always, Thanks for reading 😃
